@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart</title>
+    <style>
+body{
+margin: 0;
+padding: 0;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+display: flex;
+background-color: rgb(16, 16, 31);
+}
+.heart{
+width: 70px;
+height: 70px;
+background-color: red;
+transform: rotate(-45deg);
+position: relative;
+box-shadow:-10px 10px 90px #f20044;
+animation: heart 0.6s linear infinite;
+
+}
+@keyframes heart{
+0%{
+    transform: rotate(-45deg) scale(1.07);
+
+}
+80%{
+    transform: rotate(-45deg) scale(1.07);
+
+}
+100%{
+    transform: rotate(-45deg) scale(0.8);
+
+}
+}
+.heart:before{
+    width: 70px;
+height: 70px;
+background-color: red;
+position: absolute;
+content: '';
+top: -50%;
+box-shadow:-10px 10px 90px #f20044;
+border-radius: 80px;
+}
+.heart:after{
+    position: absolute;
+    width: 70px;
+height: 70px;
+background-color: red;
+position: absolute;
+content: '';
+right: -50%;
+border-radius: 80px;
+box-shadow:-10px 10px 90px #f20044;
+
+}
+h1{
+
+color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: -150px;
+margin-left: 113px;
+
+}
+h2{
+
+color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: -150px;
+margin-left: 113px;
+
+}
+
+    </style>
+</head>
+<body>
+    <!-- <h1>.خدا اُنہیں بھی عروج دے..😇 جو ہمارے زوال کے فکرمند ہیں.. 🤞🏻👑.</h1> -->
+    <h2>Jutt BaDsHa 🩷🏸🏸</h2>
+    <div class="heart"></div>
+    <div class="heart2"></div>
+</body>
+</html>                                                 

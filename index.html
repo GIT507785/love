@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+body{
+margin: 0%;
+padding: 0px;
+box-sizing: border-box;
+background-color: rgb(215, 67, 92);
+}
+.container{
+  height: 165px;
+    width: 200px;
+    /* background-color: brown; */
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 332px 753px;
+    border: none;
+    border-radius: 70px;
+  }
+.btn{
+  background-color: rgb(75, 219, 75);
+height: 50px;
+width: 50px;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+}
+.btn:hover{
+background-color: aquamarine;
+transition: ease-in-out 2s;
+}
+  a{
+text-decoration: none;
+color: black;
+  }
+  @media only screen and (max-width:1140px){
+    .container{
+flex-direction: column;
+
+    }
+    .btn{
+
+      flex-direction: column;
+      
+    }
+  }
+  </style>
+</head>
+ <body> 
+  <div class="container">
+<button class="btn"><a href="heart.html">Click here</a></button>
+ 
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
